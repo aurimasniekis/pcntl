@@ -1,0 +1,28 @@
+{
+    "name": "morker/pcntl",
+    "description": "A php pcntl extension wrapper",
+    "version": "1.0.0-dev",
+    "type": "wrapper",
+    "keywords": ["pcntl"],
+    "homepage": "http://github.com/gcds/pcntl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aurimas Niekis",
+            "email": "aurimas.niekis@gmail.com",
+            "homepage": "http://www.gcds.lt",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "http://github.com/gcds/pcntl"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "ext-pcntl": "*"
+    },
+    "autoload":     {
+        "psr-0": { "Morker\\Pcntl": "" }
+    },
+    "target-dir": "Morker/Pcntl"
+}
